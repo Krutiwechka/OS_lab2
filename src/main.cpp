@@ -37,8 +37,8 @@ int main() {
         std::cout << val << ' ';
     std::cout << '\n';
 
-    CloseHandle(hMinMax);
     CloseHandle(hAverage);
+    CloseHandle(hMinMax);
 
     system("pause");
     return 0;
